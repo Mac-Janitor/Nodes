@@ -1,11 +1,12 @@
 [
   {
     "ID":1,
-    "NAME":"Big Sun",
-    "RARITY":1,
-    "ATK":4,
-    "DEF":1,
-    "IMAGE":"spr_BigSun",
-    "FLAVOR":"Here comes the Sun!"
+    "xx":0,
+    "yy":0
   },
+  {
+    "ID":2,
+    "xx":1,
+    "yy":1
+  }  
 ]
