@@ -1,10 +1,6 @@
-// void scrNewNode(xx, yy, edge)
-node = argument0;
-//edge = argument2;
+var node = argument0;
 
-instance_create_layer(50 + 100*node[? "xx"], 50 + 100*node[? "yy"], "Instances", objNode);
+// TODO: Add way to determine if node has aleady been added
+var cell = objGrid.grid[node[? "xx"], node[? "yy"]];
 
-
-//node.xx = xx;
-//node.yy = yy;
-//node.edge = edge;
+instance_create_layer(cell.x, cell.y, "Instances", objNode);

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "09a99b3c-0ded-42f6-934b-81fc81a49c05",
+            "Value": {
+                "id": "a1cfc7d4-0edd-466a-8054-b06ba1a8fa43",
+                "resourcePath": "objects\\objCell\\objCell.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e03ff31-a5b0-4421-9e5c-99af82d16a08",
             "Value": {
                 "id": "e6af3da1-40b4-4e68-a824-c74370988eba",
@@ -130,7 +138,7 @@
             "Key": "73cb91be-6dc7-4cb7-832a-8acb1981e263",
             "Value": {
                 "id": "9e23d98b-78b8-4359-937e-fd6dc6b3d817",
-                "resourcePath": "objects\\objBoard\\objBoard.yy",
+                "resourcePath": "objects\\objGrid\\objGrid.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -140,6 +148,14 @@
                 "id": "17425205-9f8b-4420-90d8-da2493492db0",
                 "resourcePath": "objects\\objNode\\objNode.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7e135b46-d2ec-4799-a201-4cda6517b904",
+            "Value": {
+                "id": "90cb1fa6-1066-4934-8fc0-196e69b448c8",
+                "resourcePath": "scripts\\scrProcessJson\\scrProcessJson.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "c27943ab-7945-48f1-8fa8-ff76f107e824",
+            "Value": {
+                "id": "f3b9ab28-94de-458f-a38c-280123a6b6d5",
+                "resourcePath": "sprites\\sprCell\\sprCell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c3a1ccc3-328e-452a-be3a-11a4f422333e",
             "Value": {
                 "id": "cb216335-90d4-4a00-9287-8bc11954a32f",
@@ -255,6 +279,14 @@
             }
         },
         {
+            "Key": "f0f35100-458e-476c-9283-c145e4c38399",
+            "Value": {
+                "id": "d1b6645f-fed1-485e-8b14-bf8e196d7f3f",
+                "resourcePath": "scripts\\scrBuildGrid\\scrBuildGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "1e561ca3-bf8b-41c7-97da-d2a8b5c4adbf",
@@ -280,7 +312,9 @@
         }
     ],
     "script_order": [
-        "04cd2122-0f13-4aaf-ac22-300029389db6"
+        "04cd2122-0f13-4aaf-ac22-300029389db6",
+        "f0f35100-458e-476c-9283-c145e4c38399",
+        "7e135b46-d2ec-4799-a201-4cda6517b904"
     ],
     "tutorial": ""
 }
