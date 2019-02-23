@@ -1,9 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-if (sprite_index == sprNodeOff)
-	sprite_index = sprNodeOn;
+if (enabled == 0)
+	enabled = 1;
 else
-	sprite_index = sprNodeOff;
+	enabled = 0;
 	
-show_debug_message("XX Value: " + string(self.xx));
-show_debug_message("YY Value: " + string(self.yy));
+if (debug_mode)
+{
+	show_debug_message("XX Value: " + string(self.xx));
+	show_debug_message("YY Value: " + string(self.yy));
+}

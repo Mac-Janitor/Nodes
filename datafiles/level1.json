@@ -3,7 +3,16 @@
   [
     {
       "xx": 0,
-      "yy": 0
+      "yy": 0,
+      "relationships":
+      [
+        {
+          "nodeId": 2
+        },
+        {
+          "nodeId": 15
+        }
+      ]
     },
     {
       "xx": 2,

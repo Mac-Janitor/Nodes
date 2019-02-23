@@ -6,7 +6,7 @@ var jsonValueToFind = "default";
 if (argument_count > 1)
 	jsonValueToFind = argument[1];
 
-var jsonFile = file_text_open_read("level1.json");
+var jsonFile = file_text_open_read(jsonFileName);
 var jsonString = "";
 while(!file_text_eof(jsonFile))
 {

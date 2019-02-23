@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "73f93479-f286-4c03-ad6d-3dbcf0617db2",
+            "Value": {
+                "id": "ebe575c7-c9be-4c88-9815-e385f1f99498",
+                "resourcePath": "scripts\\scrAddEdge\\scrAddEdge.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7b1fd259-2461-4232-af3f-db46ffdf1a4d",
             "Value": {
                 "id": "17425205-9f8b-4420-90d8-da2493492db0",
@@ -314,7 +322,8 @@
     "script_order": [
         "04cd2122-0f13-4aaf-ac22-300029389db6",
         "f0f35100-458e-476c-9283-c145e4c38399",
-        "7e135b46-d2ec-4799-a201-4cda6517b904"
+        "7e135b46-d2ec-4799-a201-4cda6517b904",
+        "73f93479-f286-4c03-ad6d-3dbcf0617db2"
     ],
     "tutorial": ""
 }
