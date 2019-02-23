@@ -10,8 +10,9 @@ with(inst)
 	self.xx = node[? "xx"];
 	self.yy = node[? "yy"];
 	
-	self.nodeId = self.xx + (self.yy * array_height_2d(objGrid.grid));
-	
+	self.nodeId = self.xx + (self.yy * objGrid.totalWidth);
+	//self.nodeId = self.xx + (self.yy * array_height_2d(objGrid.grid));
+
 	//show_debug_message(self.nodeId);
 	
 	var relationships = node[? "relationships"];
@@ -24,6 +25,10 @@ with(inst)
 			self.relationships[i] = relationship[? "nodeId"];
 			show_debug_message(self.relationships[i]);
 		}
+	}
+	else
+	{
+		self.relationships = undefined;
 	}
 }
 

@@ -23,3 +23,6 @@ while (cellY < (room_height - cellHeight))
 	xx = 0;
 	yy++;	
 }
+
+objGrid.totalWidth = array_height_2d(objGrid.grid);
+objGrid.totalHeight = array_length_1d(objGrid.grid);
