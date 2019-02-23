@@ -1,6 +1,6 @@
 scrBuildGrid();
 
-var levelList = scrProcessJson("level1.json");
+var levelList = scrProcessJson("level1.json", "nodes");
 
 for (var i = 0; i < ds_list_size(levelList); i++)
 {

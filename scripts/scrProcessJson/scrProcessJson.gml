@@ -1,5 +1,10 @@
 // Concatenate json file into string
-var jsonFileName = argument0;
+var jsonFileName = argument[0];
+var jsonValueToFind = "default";
+
+// argument1 is an optional argument that changes the map find value
+if (argument_count > 1)
+	jsonValueToFind = argument[1];
 
 var jsonFile = file_text_open_read("level1.json");
 var jsonString = "";
@@ -12,6 +17,6 @@ file_text_close(jsonFile);
 
 // Decode json string
 var jsonMap = json_decode(jsonString);
-var jsonList = ds_map_find_value(jsonMap, "default");
+var jsonList = ds_map_find_value(jsonMap, jsonValueToFind);
 
 return jsonList;
