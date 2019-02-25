@@ -1,8 +1,5 @@
-if (enabled == 0)
-	enabled = 1;
-else
-	enabled = 0;
-	
+enabled = -enabled
+
 if (debug_mode)
 {
 	show_debug_message("XX Value: " + string(self.xx));
@@ -19,7 +16,7 @@ if (self.relationships != undefined)
 		{
 			if (self.nodeId == nodeToEnable)
 			{
-				self.enabled = 1;
+				self.enabled = -self.enabled;
 			}
 		}
 	}

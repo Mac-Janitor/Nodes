@@ -16,11 +16,23 @@
     },
     {
       "xx": 2,
-      "yy": 0
+      "yy": 0,
+      "relationships":
+      [
+        {
+          "nodeId": 0
+        }
+      ]
     },  
     {
       "xx": 1,
-      "yy": 1
+      "yy": 1,
+      "relationships":
+      [
+        {
+          "nodeId": 0
+        }
+      ]      
     },
     {
       "xx": 2,
