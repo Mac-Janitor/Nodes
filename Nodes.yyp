@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "18db9ef9-ede0-4907-b4fb-157f22397d71",
+            "Value": {
+                "id": "4a090bd9-9d50-45e7-93b8-c7e22a0d384d",
+                "resourcePath": "scripts\\scrBezierCurve\\scrBezierCurve.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "21241271-b7b3-4087-8621-8a6d42b7acee",
             "Value": {
                 "id": "cc1ccb9e-36a5-486a-8770-30877e3ce961",
@@ -116,6 +124,22 @@
                 "id": "9d0de711-c351-4a07-9ce0-40745e3605fc",
                 "resourcePath": "datafiles_yy\\level1.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "42f6f6d1-12fe-4776-a076-ba447b541217",
+            "Value": {
+                "id": "29f48646-0365-4c96-9770-15a66b526e48",
+                "resourcePath": "rooms\\rmTestBezierCurve\\rmTestBezierCurve.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5006cb7c-d91b-4587-a4ab-4998f1fe7d91",
+            "Value": {
+                "id": "2f24690f-9332-4ff3-b3f9-d6fb01ffd6ac",
+                "resourcePath": "objects\\objBezierCurve\\objBezierCurve.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -323,7 +347,8 @@
         "04cd2122-0f13-4aaf-ac22-300029389db6",
         "f0f35100-458e-476c-9283-c145e4c38399",
         "7e135b46-d2ec-4799-a201-4cda6517b904",
-        "73f93479-f286-4c03-ad6d-3dbcf0617db2"
+        "73f93479-f286-4c03-ad6d-3dbcf0617db2",
+        "18db9ef9-ede0-4907-b4fb-157f22397d71"
     ],
     "tutorial": ""
 }
