@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "89b5a69c-e839-4bdb-a57c-c9fc2a1bb554",
+            "Value": {
+                "id": "16a4cc08-aa18-4a27-96bd-e090c1c95157",
+                "resourcePath": "shaders\\shdBezierCurve\\shdBezierCurve.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "8d1aaf85-65a3-4500-9590-5869ecb07629",
             "Value": {
                 "id": "e72169a0-d331-4f70-9170-1ea43f371f93",
