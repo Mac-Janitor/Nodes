@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3c2db474-143f-4a8e-9838-5aca94e9d2ab",
+            "Value": {
+                "id": "9d5f9570-c52d-4249-b170-30b7e52f5bbb",
+                "resourcePath": "scripts\\scrDrawCellPath\\scrDrawCellPath.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3eb101e0-fd42-4307-aff3-427884c0c0a7",
             "Value": {
                 "id": "9d0de711-c351-4a07-9ce0-40745e3605fc",
@@ -295,19 +303,19 @@
             }
         },
         {
+            "Key": "d1983d32-c7ab-41be-90ce-b179cae2ec92",
+            "Value": {
+                "id": "f32fd9c9-d4e9-4cd6-9b31-af315e16f9a5",
+                "resourcePath": "shaders\\shdHorizontalLine\\shdHorizontalLine.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "d7340b86-9bf7-4f4c-a469-b9846940a2c0",
             "Value": {
                 "id": "415eaba3-4107-4936-97c6-84985d8a51bb",
                 "resourcePath": "views\\d7340b86-9bf7-4f4c-a469-b9846940a2c0.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e25f34e0-46f0-425c-b58b-a0771b8933a3",
-            "Value": {
-                "id": "0671fb29-6856-4b03-a9c6-2b03befe38e6",
-                "resourcePath": "objects\\objWire\\objWire.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -335,14 +343,6 @@
             }
         },
         {
-            "Key": "fdcdca2e-89d4-4e33-92e0-631a21902e7f",
-            "Value": {
-                "id": "43e335f4-3cd8-49fc-b53f-d96cdfead8f2",
-                "resourcePath": "sprites\\sprWire\\sprWire.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "fea076a1-6e1c-4467-952a-415bc17b0128",
             "Value": {
                 "id": "8c652d8e-b7de-4cfd-9020-c6535154d66d",
@@ -356,7 +356,8 @@
         "f0f35100-458e-476c-9283-c145e4c38399",
         "7e135b46-d2ec-4799-a201-4cda6517b904",
         "73f93479-f286-4c03-ad6d-3dbcf0617db2",
-        "18db9ef9-ede0-4907-b4fb-157f22397d71"
+        "18db9ef9-ede0-4907-b4fb-157f22397d71",
+        "3c2db474-143f-4a8e-9838-5aca94e9d2ab"
     ],
     "tutorial": ""
 }
